@@ -1,0 +1,88 @@
+#navigationbar {
+    list-style-type: none;
+    margin: 1px;
+    padding: 0;
+    text-align: center;
+}
+
+.navi {
+    text-decoration: none;
+    /* display: block; */
+    display: inline-block;
+    padding: 1px;
+    /* float: right; */
+    margin: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFAA8B;
+    font-family: 'Raleway', sans-serif;
+    border-right: solid 1px;
+    padding-right: 10px;
+}
+
+.navi:hover {
+    background-color: red;
+    color: grey;
+}
+.active {
+    background-color: grey;
+}
+ul,
+menu {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    }
+p,a,div,li {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    background-color: #E8EEF2;
+    font-family: 'Raleway', sans-serif;
+    color: Grey;
+}
+
+body {
+    background-color: #E8EEF2;
+}
+
+#Buddha {
+    padding: 40px;
+}
+
+#Footer {
+    background-color: #2E3532;
+    color: #C8C8C8;
+}
+
+#cuisine {
+    width: 300px;
+}
+#tamil {
+    width: 300px;
+    height: 300px;
+}
+#Colombo {
+    width: 300px;
+    height: 300px;
+}
+#flag {
+    width: 20%;
+}
+.food {
+    display: inline-block;
+}
+ol {
+    list-style-position: inside;
+}
+p {
+    padding-right: 70px;
+    padding-left: 70px;
+}
